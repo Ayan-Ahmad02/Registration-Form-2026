@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission From</title>
+</head>
+<body>
+    <div style="border-radius:1px ; 
+    padding: 50px; 
+    margin: 50px; 
+    border-color: black; 
+    border-style:solid;" 
+    width="100px">
+    <div style="text-align:right;">
+    <label for="photoUpload" style="cursor:pointer;">
+        <img align="right"
+        id="preview"
+        src="https://img.freepik.com/free-vector/add-new-user_78370-4710.jpg"
+        width="120"
+        height="120"
+        style="border:2px solid black;" required/>
+    </label>
+    <input type="file" id="photoUpload" accept="image/*" style="display:none;">
+</div>
+<br>
+    <h3 align="center">B.TECH ADMISSION FORM 2026-26</h3>
+    <h2 align="center"><strong>Dr. Shakuntala Misra National Rehabilitation University Lucknow</strong></h2>
+    <br>
+    <hr>
+    <div style="padding-left: 40%; padding-right: 40%;"><h2 align="center" style="color: white; background-color: skyblue;">Registration Form</h2></div>
+    <hr>
+    <form action=" ">
+        <ol type="1">
+        <li><label for="Student-Name">
+            Student Name : <input type="text" id="Student-Name" name="Student-Name" placeholder="Enter Your Name" maxlength="15" required/>
+        </label>
+        <br><br>
+        <li><label for="Father-Name">
+            Father's Name : <input type="text" id="Father-Name" name="Father-Name" placeholder="Enter Your Father's Name" required/>
+        </label>
+        <br><br>
+        <li><label for="Mother-Name">
+            Mother's Name : <input type="text" id="Mother-Name" name="Mother-Name" placeholder="Enter Your Mother's Name" required/>
+        </label>
+        <br><br>
+        <li><label for="birth-date/Gender">
+            DOB : <input type="date" id="birth-date" name="birth-date" required/>
+            Gender : 
+            <label>
+    <input type="radio" name="status" value="single" class="toggleRadio">
+    Single
+</label>
+
+<label>
+    <input type="radio" name="status" value="married" class="toggleRadio">
+    Married
+</label>     
+        </label>    
+        <br><br>
+        <li><div style="border-radius:1px ; padding: 10px; margin: 10px; border-color: black; border-style:dotted;" width="400px">
+            <h3 align="center" style="color:skyblue;">Present Address</h3>
+            <label for="Division">
+                Division : <input type="text" placeholder="Enter Division" id="presentDivision" name="Division" required/>
+                District : <input type="text" id="presentDistrict" placeholder="Enter District" name="District" required/>
+            </label>
+            <br><br>
+            <label for="Address">
+                Address : <input type="text" id="presentAddress" name="Address" placeholder="Enter Your Present Address" required/>
+            </label>
+        </div>
+        <br>
+        <label>
+             <input type="checkbox" id="sameAddress">
+             Same as Present Address
+            </label>
+            <br><br>
+        <li><div style="border-radius:1px ; padding: 10px; margin: 10px; border-color: black; border-style:dotted;" width="400px">
+            <h3 align="center" style="color:skyblue;">Permanent Address</h3>
+            <label for="Division">
+                Division : <input type="text" placeholder="Enter Division" id="permanentDivision" name="Division" required/>
+                District : <input type="text" id="permanentDistrict" placeholder="Enter District" name="District" required/>
+            </label>
+            <br><br>
+            <label for="Address">
+                Address : <input type="text" id="permanentAddress" name="Address" placeholder="Enter Your Permanent Address" required/>
+            </label>
+        </div>
+        <br>
+        <li><div >
+            <ul type="square">
+            <li>
+                <label for="Religion">Religion : <input type="text" id="Religion" name="Religion" placeholder="Enter Your Religion" required/> </label>
+                <label for="Nationality">Nationality : <input type="text" id="Nationality" name="Nationality" placeholder="Enter Your Nationality" required/></label>
+                <label for="Phone-Number">Phone Number : <input type="number" id="Phone-Number" name="Number" placeholder="Enter Your Phone Number" required/> </label>
+            </li>
+            <br>
+            <li>
+                <label for="Email">Email : <input type="email" id="Email" name="Email" placeholder="Enter Your Email" required/></label>
+                <label for="NID-Number">NID NUMBER : <input type="number" id="NID-Number" name="NID-Number" placeholder="Enter Your NID Number" required/> </label>
+                Blood group: <select name="Blood-group" id="Blood-group">
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+                <br><br>
+                <li>
+                    <label for="Disability-catagory">Disability Category : </label>
+                    <select name="Disability-category" id="Disability-category" required>
+                        <option value="None">None</option>
+                        <option value="Visual">Visual</option>
+                        <option value="Hearing">Hearing</option>
+                        <option value="Physical">Physical</option>
+                        <option value="Intellectual">Intellectual</option>
+                        <option value="Multiple">Multiple</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label for="Occupation">Occupation : <input type="text" id="Occupation" name="Occupation" placeholder="Enter Your Occupation" required/> </label>
+                    <label for="Status">Status : <input type="radio" id="single" name="Status" value="single" required/>Single
+                    <input type="radio" id="married" name="Status" value="married" required/>Married
+                    </label>
+                </li> 
+            </li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+            <h3 align="center">DECLEARATION</h3>
+            <p>I hereby declare that all the information provided above is true and correct to the best of my knowledge and belief. I understand that any false information may lead to disqualification from the admission process.</p>
+        <hr>
+        <br><br>
+                <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-top:40px;">
+
+    <!-- Stamp -->
+    <div>
+        <button style="border: transparent; background-color: transparent;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkiP8y17do_uOw2Pn8shHUvsq1mo2Du9b7Q&s"
+             width="200"
+             style="opacity:0.9;">
+        </button>
+    </div>
+
+    <!-- Signature Section -->
+    <div style="width:320px; font-family:Arial, sans-serif;">
+
+        <h4 style="margin:0 0 8px 0; text-align:center; font-weight:600;">
+            Student Signature
+        </h4>
+
+        <canvas id="signaturePad"
+            width="300"
+            height="120"
+            style="border-bottom:2px solid black; background:transparent; display:block; margin:auto;" aria-required="true">
+        </canvas>
+
+        <div style="text-align:center; margin-top:8px;">
+
+            <button type="button" onclick="clearSignature()"
+                style="padding:4px 10px; border:none; background:#dc3545; color:white; border-radius:4px; cursor:pointer; font-size:13px;">
+                Clear
+            </button>
+
+            <label for="pdfUpload"
+                style="padding:4px 10px; background:#28a745; color:white; border-radius:4px; cursor:pointer; font-size:13px; margin-left:6px;">
+                Upload PDF
+            </label>
+
+            <input type="file" id="pdfUpload" accept="application/pdf" style="display:none;">
+
+        </div>
+
+    </div>
+
+</div>
+
+        
+    
+    </ol>
+    </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>
